@@ -1,0 +1,53 @@
+   - name: Preview Environments
+  # You may pin to the exact commit or the version.
+  # uses: UffizziCloud/preview-action@6f946b7c6d38a24e28a134e6f833783dfaaaf782
+  uses: UffizziCloud/preview-action@v2.6.1
+  with:
+    # An alternate compose file
+    compose-file: # optional, default is docker-compose.yaml
+    # URL to Uffizzi
+    server: # default is https://app.uffizzi.com
+    # Uffizzi username
+    username: # optional
+    # Uffizzi password
+    password: # optional
+    # Uffizzi project slug
+    project: # optional
+    # Username to authenticate to GHCR
+    ghcr-username: # optional
+    # Password to authenticate to GHCR
+    ghcr-access-token: # optional
+    # Value of `github.event.number` context
+    github-event-number: # optional
+    # Value of `github.ref` context
+    github-ref: # optional
+    # Value of `github.repository` context
+    github-repository: # optional
+    # 
+    request-token: # optional
+    # 
+    request-token-url: # optional
+    # 
+    dockerhub-username: # optional
+    # 
+    dockerhub-password: # optional
+    # Azure username
+    acr-username: # optional
+    # Azure password
+    acr-password: # optional
+    # Azure registry url
+    acr-registry-url: # optional
+    # Amazon Web Services access key id
+    aws-access-key-id: # optional
+    # Amazon Web Services secret access key
+    aws-secret-access-key: # optional
+    # Amazon Web Services registry url
+    aws-registry-url: # optional
+    # Google Cloud service key
+    gcloud-service-key: # optional
+    # Custom docker registry username
+    docker-registry-username: # optional
+    # Custom docker registry password
+    docker-registry-password: # optional
+    # Custom docker registry url
+    docker-registry-url: # optional
